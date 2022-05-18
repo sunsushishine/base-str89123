@@ -10,47 +10,31 @@ using System.Windows.Forms;
 
 namespace military_base_d
 {
-    public partial class Form1 : Form
+    public partial class Form6 : Form
     {
-        private Form2 form2;
-        private Form3 form3;
-        private Form4 form4;
-        private Form5 form5;
-        private Form6 form6;
-
-        public Form1()
+        public Form6()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            form2 = new Form2();
-            form2.Visible = true;
+            textBox1.Text = "хуй";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            form3 = new Form3();
-            form3.Visible = true;
+            textBox1.Text = "хуй2";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            form4 = new Form4();
-            form4.Visible = true;
+            textBox1.Text = "хуй3";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            form5 = new Form5();
-            form5.Visible = true;
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            form6 = new Form6();
-            form6.Visible = true;
+            textBox1.Text = "хуй4";
         }
     }
 }
